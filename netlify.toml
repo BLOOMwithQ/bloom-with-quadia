@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# Pretty URLs: serve /shop for shop.html, etc.
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
